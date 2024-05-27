@@ -1,3 +1,3 @@
-def mavenBuild(){
+def call(){
   sh "mvn clean package"
 }
